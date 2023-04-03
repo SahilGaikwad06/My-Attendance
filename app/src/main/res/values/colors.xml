@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#2C6AC9</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimaryLight">#6FA5E3</color>
+    <!--<color name="colorPrimaryDark">#3C72B0</color>-->
+    <color name="colorPrimary">#2C6AC9</color>
+    <color name="colorPrimaryDark">#2B71D4</color>
+    <color name="colorAccent">#6FA5E3</color>
+    <color name="colorLightGray">#DDD</color>
+    <color name="colorLightRed">#F77</color>
+    <color name="Grey">#D3D0CF</color>
+    <color name="White">#fff</color>
+    <color name="ValishaTheme">#1C797E</color>
+
+
+
+
+    <color name="Green">#157D14</color>
+    <color name="Red">#FF0000</color>
+    <color name="Background">#F7F7F7</color>
+
+
+</resources>

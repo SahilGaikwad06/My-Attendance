@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.Attendance.Attendance">
+
+    <fragment
+        android:layout_weight="0.30"
+        android:id="@+id/myMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".UI.Attendance.Attendance" />
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_weight="0.70"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="2dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        >
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:onClick="showAddress"
+            android:id="@+id/tv_address"
+            android:drawableLeft="@drawable/ic_baseline_location_on_24"
+            android:textSize="15dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:drawableLeft="@drawable/ic_baseline_calendar_month_24"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 10-Mar-2023"
+            />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:drawableLeft="@drawable/ic_baseline_access_time_24"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" 12:00:00"
+            />
+
+            <Button
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:onClick="MarkAttendance"
+                android:text="Mark Attendance"
+                android:textStyle="bold"
+                android:textColor="@color/White"
+                android:background="@color/ValishaTheme"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="24dp"/>
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+
+

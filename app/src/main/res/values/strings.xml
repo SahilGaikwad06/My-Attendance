@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Attendance</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_dashborad">Dashboard</string>
+    <string name="title_activity_employee_login">Employee Login</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_attendance_logs">Attendance Logs</string>
+    <string name="app_version">App Version 0.0.1</string>
+    <string name="link"><a href="https://www.valishatech.com/">Powered by www.valishatech.com</a></string>
+    <string name="map_key" translatable="false">AIzaSyBXxkPA1V59kL4qtIFYj9-M2cQ_gzrjmSw</string>
+
+
+</resources>
