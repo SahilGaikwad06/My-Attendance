@@ -1,6 +1,6 @@
-# My-Attendance
+# myBuro Attendance
 
 ## To signed APK to upload on playstore,
-Key store password : Valisha
-Key alias : valisha
-Key password : valisha
+<br/>Key store password : Valisha
+<br/>Key alias : valisha
+<br/>Key password : valisha
